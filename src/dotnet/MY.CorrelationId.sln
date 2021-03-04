@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MY.CorrelationId", "MY.CorrelationId\MY.CorrelationId.csproj", "{006BDEA9-82F0-4C29-9A9C-9A725250F872}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.CorrelationId.Serilog", "My.CorrelationId.Serilog\My.CorrelationId.Serilog.csproj", "{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.CorrelationId.AspNetCore.Serilog", "My.CorrelationId.AspNetCore.Serilog\My.CorrelationId.AspNetCore.Serilog.csproj", "{EB0680D1-D0F6-403E-9E49-E9AD1F285E8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{006BDEA9-82F0-4C29-9A9C-9A725250F872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{006BDEA9-82F0-4C29-9A9C-9A725250F872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{006BDEA9-82F0-4C29-9A9C-9A725250F872}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0680D1-D0F6-403E-9E49-E9AD1F285E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0680D1-D0F6-403E-9E49-E9AD1F285E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0680D1-D0F6-403E-9E49-E9AD1F285E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0680D1-D0F6-403E-9E49-E9AD1F285E8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,7 +5,7 @@ using Serilog.Context;
 using System;
 using System.Threading.Tasks;
 
-namespace My.CorrelationId.Serilog
+namespace My.CorrelationId.AspNetCore.Serilog
 {
     public class CorrelationMiddleware
     {

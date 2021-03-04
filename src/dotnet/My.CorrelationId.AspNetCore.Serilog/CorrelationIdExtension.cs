@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using MY.CorrelationId;
 
-namespace My.CorrelationId.Serilog
+namespace My.CorrelationId.AspNetCore.Serilog
 {
     public static class CorrelationIdExtension
     {
