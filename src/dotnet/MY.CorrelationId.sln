@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MY.CorrelationId", "MY.CorrelationId\MY.CorrelationId.csproj", "{006BDEA9-82F0-4C29-9A9C-9A725250F872}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.CorrelationId.Serilog", "My.CorrelationId.Serilog\My.CorrelationId.Serilog.csproj", "{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{006BDEA9-82F0-4C29-9A9C-9A725250F872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006BDEA9-82F0-4C29-9A9C-9A725250F872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006BDEA9-82F0-4C29-9A9C-9A725250F872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006BDEA9-82F0-4C29-9A9C-9A725250F872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FA2F6E-9D78-494D-A7E0-52646184F9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB11CB73-0B57-4A6F-AFC7-B4877082D19C}
+	EndGlobalSection
+EndGlobal
