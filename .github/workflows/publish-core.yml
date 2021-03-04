@@ -30,9 +30,9 @@ jobs:
             NUGET_KEY: ${{secrets.NUGET_API_KEY}}
             NUGET_SOURCE: https://api.nuget.org
 
-        - name: Publish My.CorrelationId.Serilog
+        - name: Publish My.CorrelationId.AspNetCore.Serilog
           uses: brandedoutcast/publish-nuget@v2.5.2
           with:
-            PROJECT_FILE_PATH: src/dotnet/My.CorrelationId.Serilog/My.CorrelationId.Serilog.csproj
+            PROJECT_FILE_PATH: src/dotnet/My.CorrelationId.AspNetCore.Serilog/My.CorrelationId.AspNetCore.Serilog.csproj
             NUGET_KEY: ${{secrets.NUGET_API_KEY}}
             NUGET_SOURCE: https://api.nuget.org
