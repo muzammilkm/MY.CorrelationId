@@ -8,7 +8,7 @@
     <PackageTags>Correlation Id Provider; dotnet; core; inject;</PackageTags>
     <Description>Correlation Id provider as well get correlation id where needed.</Description>
     <Authors>Muzammil Khaja Mohammed</Authors>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
   </PropertyGroup>
 
 </Project>

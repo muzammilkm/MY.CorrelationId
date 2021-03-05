@@ -8,12 +8,19 @@
     <PackageTags>Correlation Id; dotnet; core; inject; Serilog</PackageTags>
     <Description>Enrich Correlation Id as well get correlation id where needed.</Description>
     <Authors>Muzammil Khaja Mohammed</Authors>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
   </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp2.2'">
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)'=='net5.0'">
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
     <PackageReference Include="Serilog.Enrichers.AspNetCore.HttpContext" Version="1.0.1" />
   </ItemGroup>
 
