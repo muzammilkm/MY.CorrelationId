@@ -11,9 +11,9 @@ namespace My.CorrelationId.AspNetCore.Serilog
             return services.AddScoped<ICorrelationIdProvider, CorrelationIdProvider>();
         }
 
-        public static IApplicationBuilder UseCorrelationId(this IApplicationBuilder app)
+        public static IApplicationBuilder UseCorrelationId(this IApplicationBuilder app, string propertyName = "X-CorrelationId")
         {
-            return app.UseMiddleware<CorrelationMiddleware>();
+            return app.UseMiddleware<CorrelationMiddleware>(propertyName);
         }
     }
 }

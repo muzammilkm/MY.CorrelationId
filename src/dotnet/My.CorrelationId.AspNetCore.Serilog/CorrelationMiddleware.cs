@@ -10,10 +10,12 @@ namespace My.CorrelationId.AspNetCore.Serilog
     public class CorrelationMiddleware
     {
         private readonly RequestDelegate _next;
+        private readonly string _propertyName;
 
-        public CorrelationMiddleware(RequestDelegate next)
+        public CorrelationMiddleware(RequestDelegate next, string propertyName)
         {
             _next = next;
+            _propertyName = propertyName;
         }
 
         public async Task Invoke(HttpContext context)
@@ -23,7 +25,7 @@ namespace My.CorrelationId.AspNetCore.Serilog
 
             var correlationIdProvider = context.RequestServices.GetRequiredService<ICorrelationIdProvider>();
 
-            LogContext.PushProperty("US-CorrelationId", correlationIdProvider.GetCorrelationId());
+            LogContext.PushProperty(_propertyName, correlationIdProvider.GetCorrelationId());
 
             await _next(context);
         }
